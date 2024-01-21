@@ -1,0 +1,217 @@
+body{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.6em;
+    background-image: url(images/bg1.jpg);
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    font-size: 30px;
+    color: white;
+    flex: 1;
+    order: 1;
+    padding-left: 37px;
+}
+#navbar{
+    flex: 3;
+    order: 1;
+    padding-top: 22px;
+    position: relative;
+}
+#navbar ul{
+    list-style: none;
+    padding-left: 500px;
+    display: flex;
+}
+.one{
+    display: flex;
+    background-image: linear-gradient(to right top, #1a69e0, #008ff3, #00ace7, #00c4c7, #1fd7a4);
+}
+#navbar li{
+    display: inline;
+    font-size: 20px;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+.rest{
+    padding-top: 2px;
+}
+.login{
+    border: 2px white solid;
+    padding-left: 15px;
+    background-color: green;
+}
+#main-footer{
+    background-color: rgb(74 141 255);
+    color: white;
+}
+#main-footer a{
+    text-decoration: none;
+    color: white;
+}
+#main-footer a:hover{
+    text-decoration: underline;
+}
+#main-footer h3{
+    text-align: left;
+}
+.container-1{
+    display: flex;
+}
+.container-1 div{
+    padding: 10px;
+}
+.box-1{
+    flex: 1;
+}
+.box-2{
+    flex: 1;
+}
+.container-2{
+    display: flex;
+}
+.container-2 div{
+    padding: 10px;
+}
+.box-3{
+    flex: 2;
+}
+.box-3 p{
+    padding-right: 20px;
+}
+.box-4{
+    flex: 1;
+}
+.box-5{
+    flex: 1;
+}
+.box-6{
+    flex: 1;
+}
+.box-7{
+    flex: 1;
+}
+.icon{
+    font-size: 28px;
+    padding-left: 30px;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 250px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background-color: white;
+    padding: 5px 20px;
+}
+.user-info img{
+    width: 80px;
+    border-radius: 50%;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h3{
+    padding-left: 20px;
+    font-size: 28px;
+    color: black;
+}
+.sub-menu-link img{
+    width: 60px;
+    padding-left: 20px;
+}
+.sub-menu-link{
+    display: flex;
+}
+.sub-menu-link h4{
+    color: black;
+    font-size: 22px;
+    padding-left: 20px;
+}
+#showcase{
+    color: white;
+}
+#showcase h1{
+    text-align: center;
+    font-size: 48px;
+    text-decoration: underline;
+}
+.uploadform{
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+.uploadform label{
+    font-size: 36px;
+}
+.field1 input{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+}
+.field1{
+    padding-bottom: 20px;
+}
+.field1 label{
+    padding-right: 50px;
+}
+.field2 textarea{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+}
+.field2{
+    padding-bottom: 20px;
+}
+.field2 label{
+    padding-right: 27px;
+}
+.field3 input{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+}
+.field3{
+    padding-bottom: 20px;
+}
+.field3 label{
+    padding-right: 44px;
+}
+.field4 input{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+}
+.field4 label{
+    padding-right: 53px;
+}
+.field5 input{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.field5{
+    padding-top: 50px;
+    padding-left: 90px;
+}

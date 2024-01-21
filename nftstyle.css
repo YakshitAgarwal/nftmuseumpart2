@@ -1,0 +1,148 @@
+body{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.6em;
+    background-image: url(images/bg1.jpg);
+    color: white;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    font-size: 30px;
+    color: white;
+    flex: 1;
+    order: 1;
+    padding-left: 37px;
+}
+#navbar{
+    flex: 3;
+    order: 1;
+    padding-top: 22px;
+}
+#navbar ul{
+    list-style: none;
+    padding-left: 540px;
+    display: flex;
+}
+.one{
+    display: flex;
+    background-image: linear-gradient(to right top, #1a69e0, #008ff3, #00ace7, #00c4c7, #1fd7a4);
+}
+#navbar li{
+    display: inline;
+    font-size: 20px;
+}
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+#navbar a:hover{
+    text-decoration: underline;
+}
+.rest{
+    padding-top: 2px;
+}
+.login{
+    border: 2px white solid;
+    padding-left: 15px;
+    background-color: green;
+}
+#main-footer{
+    background-color: rgb(74 141 255);
+    color: white;
+}
+#main-footer a{
+    text-decoration: none;
+    color: white;
+}
+#main-footer a:hover{
+    text-decoration: underline;
+}
+#main-footer h3{
+    text-align: left;
+}
+.container-1{
+    display: flex;
+}
+.container-1 div{
+    padding: 10px;
+}
+.box-1{
+    flex: 1;
+}
+.box-2{
+    flex: 1;
+}
+.container-2{
+    display: flex;
+}
+.container-2 div{
+    padding: 10px;
+}
+.box-3{
+    flex: 2;
+}
+.box-3 p{
+    padding-right: 20px;
+}
+.box-4{
+    flex: 1;
+}
+.box-5{
+    flex: 1;
+}
+.box-6{
+    flex: 1;
+}
+.box-7{
+    flex: 1;
+}
+#showcase{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.description-container{
+    display: flex;
+}
+.img{
+    padding-top: 40px;
+}
+.text{
+    padding-left: 50px;
+    padding-right: 250px;
+}
+.text h2{
+    font-size: 44px;
+}
+.text h3{
+    font-size: 28px;
+    padding-left: 40px;
+}
+.text p{
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.text h4{
+    font-size: 32px;
+}
+.description-box{
+    border: 2px white solid;
+    border-radius: 35px;
+}
+.button-1 button{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.button-1{
+    padding-bottom: 20px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Museum</title>
+    <link rel="stylesheet" href="profilestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>NFT Museum</h1>
+        </div>
+    </header>
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <div class="rest">
+                    <li><a href="ahome.html">Home</a></li>
+                    <li><a href="aaboutus.html">About Us</a></li>
+                    <li><a href="aexplore.html">Explore</a></li>
+                    <li><a href="acontactus.html">Contact Us</a></li>
+                </div>
+                <div class="login">
+                    <li><a href="upload.html">Upload NFT</a></li>
+                </div>
+                <div class="icon">
+                    <i class="fa-regular fa-user" onclick="toggleMenu()"></i>
+                </div>
+            </ul>
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/new.png">
+                        <h3>Yakshit</h3>
+                    </div>
+                    <hr>
+                    <a href="profile.html" class="sub-menu-link">
+                        <img src="images/profile.jpg">
+                        <h4>Profile</h4>
+                    </a>
+                    <a href="settings.html" class="sub-menu-link">
+                        <img src="images/setting.jpg">
+                        <h4>Settings</h4>
+                    </a>
+                    <a href="index.html" class="sub-menu-link" onclick="mine()">
+                        <img src="images/logout.jpg">
+                        <h4>Logout</h4>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <article id="showcase">
+        <div class="container">
+            <h1>Profile</h1>
+            <div class="profile">
+                <div class="b1">
+                    <h2>Username: Yakshit</h2>
+                    <h2>Email: yakshitagarwal05@gmail.com</h2>
+                </div>
+                <div class="b2">
+                    <img src="images/new.png">
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer id="main-footer">
+        <div class="container">
+            <div class="container-2">
+                <div class="box-3">
+                    <h2>NFT Museum</h2>
+                    <p>India's largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.</p>
+                </div>
+                <div class="box-4">
+                    <h3>Marketplace</h3>
+                    <p><a href="aexplore.html">Anime</a> <br> <a href="aexplore.html">Marvel</a> <br> <a href="aexplore.html">Gaming</a></p>
+                </div>
+                <div class="box-5">
+                    <h3>My Account</h3>
+                    <p><a href="profile.html">Profile</a> <br> <a href="settings.html">Settings</a></p>
+                </div>
+                <div class="box-6">
+                    <h3>Company</h3>
+                    <p><a href="aaboutus.html">About</a> <br> <a href="#">Careers</a> <br> <a href="#">Partners</a></p> 
+                </div>
+                <div class="box-7">
+                    <h3>Learn</h3>
+                    <p><a href="https://www.forbes.com/advisor/in/investing/cryptocurrency/what-is-an-nft-how-do-nfts-work/" target="_blank">What is an NFT?</a> <br> <a href="https://www.forbes.com/advisor/in/investing/cryptocurrency/how-to-buy-nfts/" target="_blank">How to buy an NFT?</a> <br> <a href="https://www.forbes.com/advisor/in/investing/cryptocurrency/what-is-cryptocurrency-and-how-does-it-work/" target="_blank">What is cryptocurrency?</a> <br> <a href="https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet" target="_blank">What is a crypto wallet?</a> <br> <a href="https://resources.cyberlabs.club/blockchain" target="_blank">What is blockchain?</a> <br> <a href="https://www.forbes.com/advisor/investing/cryptocurrency/what-is-web-3-0/" target="_blank">What is web3.0?</a> <br> <a href="https://pontem.network/posts/9-tips-to-stay-safe-in-web3" target="_blank">How to stay protected on web3.0?</a></p>
+                </div>
+            </div>
+            <hr>
+            <p>Copyright &copy; 2024, NFT Museum</p>
+        </div>    
+    </footer>
+    <script>
+
+        let subMenu = document.getElementById("subMenu");
+        
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+
+        function mine(){
+            let text = 'You have successfully logged out'
+            alert(text)
+        }
+        
+    </script>
+</body>
+</html>
